@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546408620009",
+    "project_id": "gamearcadesfun",
+    "storage_bucket": "gamearcadesfun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546408620009:android:d9164dc101b84740b6f578",
+        "android_client_info": {
+          "package_name": "com.example.gamearcades"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546408620009-2ps6b3h3jl5p30737i2vghs10kevp3h8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALU4vTTw-mfLSMeS6gwX1vy6W5ka7zNXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546408620009-2ps6b3h3jl5p30737i2vghs10kevp3h8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="18"
+    android:background="@drawable/background_new"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/music_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="5sp"
+        android:width="15sp"
+        android:height="15sp"
+        android:background="@drawable/music_btn" />
+
+
+
+
+    <TextView
+        android:id="@+id/WelcomeHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.2"
+        android:fontFamily="@font/bangers"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="13"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/headline"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:text="Choose your game:"
+                android:letterSpacing="0.2"
+                android:fontFamily="@font/bangers"
+                android:textSize="22sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+
+            <ImageButton
+                android:id="@+id/SevenBoom"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5"
+
+                android:background="@drawable/sevenboom"
+                android:textColor="@color/white"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+
+            <ImageButton
+                android:id="@+id/GuessNumber"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5"
+
+                android:background="@drawable/guess_the_number"
+                android:textColor="@color/white"
+                tools:ignore="TouchTargetSizeCheck" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+
+            <ImageButton
+                android:id="@+id/NewGame"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/tic_tac_toe"
+                android:text="New Game"
+                android:textColor="@color/white"
+                tools:ignore="TouchTargetSizeCheck" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

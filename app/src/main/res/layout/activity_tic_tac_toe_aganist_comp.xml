@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ticTacToeAgainstComp"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+
+
+        <TextView
+            android:id="@+id/computerScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bangers"
+            android:freezesText="true"
+            android:letterSpacing="0.2"
+            android:text="Computer:0"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/playerScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/computerScore"
+            android:fontFamily="@font/bangers"
+            android:freezesText="true"
+            android:letterSpacing="0.2"
+            android:text="Player:0"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/red"
+            android:fontFamily="@font/aclonica"
+            android:text="Reset"
+            app:cornerRadius="8dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp">
+
+
+        <Button
+            android:id="@+id/btn_00"
+            android:backgroundTint="@color/shadow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:freezesText="true"
+            />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btn_01"
+            android:layout_width="0dp"
+            android:backgroundTint="@color/shadow"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:freezesText="true"/>
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btn_02"
+            android:layout_width="0dp"
+            android:backgroundTint="@color/shadow"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:freezesText="true"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp">
+
+        <Button
+            android:id="@+id/btn_10"
+            android:backgroundTint="@color/shadow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:freezesText="true"/>
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btn_11"
+            android:layout_width="0dp"
+            android:backgroundTint="@color/shadow"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:freezesText="true"/>
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btn_12"
+            android:layout_width="0dp"
+            android:backgroundTint="@color/shadow"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:freezesText="true"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp">
+
+        <Button
+            android:id="@+id/btn_20"
+            android:backgroundTint="@color/shadow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:freezesText="true"/>
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btn_21"
+            android:layout_width="0dp"
+            android:backgroundTint="@color/shadow"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:freezesText="true"/>
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btn_22"
+            android:layout_width="0dp"
+            android:backgroundTint="@color/shadow"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            android:freezesText="true"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
